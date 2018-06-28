@@ -6,7 +6,7 @@ with pandas and jupyter
 - extracted in new csv file 'Wine_Data_clean'
 
 #### KNN.py
-- performing K Nearest Neighbour on 'BreastCancerData.csv' \n
+- performing K Nearest Neighbour on 'BreastCancerData.csv'
 - headers never initialised for data set so the headers are actually the first row of values...
 - multiple dataframes created from the initial one - without ID, without classification, only the first 450 records (for training), normalised dataset (between 0-1)
 - calculates K value, indexes the datasets into arrays, then splits them to perform a prediction
