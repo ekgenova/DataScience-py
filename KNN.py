@@ -40,12 +40,6 @@ BCD_Normalised = BCD_noResults.apply(FeatureScaling)
 BCD_Training = BCD_Normalised[0:450]
 
 
-# In[75]:
-
-
-BCD_TrainingNormal = BCD_Training.apply(FeatureScaling)
-
-
 # In[18]:
 
 
